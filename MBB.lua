@@ -81,6 +81,7 @@ MBB_Ignore = {
 	[41] = "PremadeFilter_MinimapButton",    -- PreMadeFilter
 	[42] = "GarrisonMinimapButton",
 	[43] = "TukuiMinimapZone",
+	[44] = "GPSArrow"
 };
 
 MBB_IgnoreSize = {
