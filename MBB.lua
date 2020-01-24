@@ -79,7 +79,8 @@ MBB_Ignore = {
 	[39] = "poiMinimap",	-- QuestPointer
 	[40] = "MiniMapLFGFrame",    -- LFG
 	[41] = "PremadeFilter_MinimapButton",    -- PreMadeFilter
-	[42] = "GarrisonMinimapButton"
+	[42] = "GarrisonMinimapButton",
+	[43] = "TukuiMinimapZone",
 };
 
 MBB_IgnoreSize = {
