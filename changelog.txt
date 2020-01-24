@@ -1,5 +1,9 @@
 Changes
 
+v4.0.1:
+ - Update for 8.3.
+ - Fix for Dugi and Tukui
+
 v4.0:
  - Update for 8.0.
  - Update Russian localization.
