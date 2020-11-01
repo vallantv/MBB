@@ -1,5 +1,11 @@
 Changes
 
+v4.0.3:
+ - Update for 9.0.
+
+v4.0.2:
+ - Add license. Fix version display.
+
 v4.0.1:
  - Update for 8.3.
  - Fix for Dugi and Tukui

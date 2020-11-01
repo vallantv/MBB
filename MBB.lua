@@ -8,7 +8,7 @@
 	
 ]]
 
-MBB_Version = "4.0.2";
+MBB_Version = "4.0.3";
 
 -- Setup some variable for debugging.
 MBB_DebugFlag = 0;
@@ -31,6 +31,25 @@ MBB_DefaultOptions = {
 	["ExpandDirection"] = 1,
 	["MaxButtonsPerLine"] = 0,
 	["AltExpandDirection"] = 4
+};
+
+
+BACKDROP_MAXBUTTONS_OPTIONS = {
+	edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+	tile = true,
+	--tileEdge = true,
+	tileSize = 8,
+	edgeSize = 8
+};
+
+BACKDROP_TOOLTIP_OPTIONS = {
+	bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background",
+	edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border",
+	tile = true,
+	tileEdge = true,
+	tileSize = 32,
+	edgeSize = 32,
+	insets = { left = 11, right = 12, top = 12, bottom = 11 },
 };
 
 -- Buttons to include with scanning for them first.  Currently unused.
