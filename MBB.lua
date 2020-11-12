@@ -101,7 +101,7 @@ MBB_Ignore = {
 	[42] = "GarrisonMinimapButton",
 	[43] = "TukuiMinimapZone",
 	[44] = "GPSArrow",
-	[45] = "HandyNotes_ShadowlandsPin"
+	[45] = "HandyNotes_.*Pin" -- Handy Notes plugins support
 };
 
 MBB_IgnoreSize = {
