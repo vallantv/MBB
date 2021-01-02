@@ -100,7 +100,8 @@ MBB_Ignore = {
 	[41] = "PremadeFilter_MinimapButton",    -- PreMadeFilter
 	[42] = "GarrisonMinimapButton",
 	[43] = "TukuiMinimapZone",
-	[44] = "GPSArrow"
+	[44] = "GPSArrow",
+	[45] = "HandyNotes_.*Pin" -- Handy Notes plugins support
 };
 
 MBB_IgnoreSize = {
