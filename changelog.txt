@@ -1,4 +1,6 @@
 Changes
+v4.0.4:
+ - Fixes for Handynotes and better RU localization
 
 v4.0.3:
  - Update for 9.0.
