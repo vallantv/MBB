@@ -1,4 +1,7 @@
 Changes
+v4.0.5:
+ - Back on curseforge release. Bump toc for shadowlands.
+
 v4.0.4:
  - Fixes for Handynotes and better RU localization
 
