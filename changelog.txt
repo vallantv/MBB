@@ -1,4 +1,7 @@
 Changes
+v4.0.6:
+ - Bump game version
+
 v4.0.5:
  - Back on curseforge release. Bump toc for shadowlands.
 
