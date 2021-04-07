@@ -8,7 +8,7 @@
 	
 ]]
 
-MBB_Version = "4.0.6";
+MBB_Version = "4.0.7";
 
 -- Setup some variable for debugging.
 MBB_DebugFlag = 0;
@@ -735,9 +735,11 @@ function MBB_IsKnownButton(name, opt)
 	return false;
 end
 
+local MinimapChildrenChecked = false
 function MBB_OnUpdate(elapsed)
-	if( MBB_CheckTime >= 3 ) then
-		MBB_CheckTime = 0;
+	if( not MinimapChildrenChecked ) then
+		--MBB_CheckTime = 0;
+		MinimapChildrenChecked = true
 		local children = {Minimap:GetChildren()};
 		for _, child in ipairs(children) do
 			if( child:HasScript("OnClick") and not child.oshow and child:GetName() and not MBB_IsKnownButton(child:GetName(), 3) ) then
@@ -748,8 +750,6 @@ function MBB_OnUpdate(elapsed)
 				end
 			end
 		end
-	else
-		MBB_CheckTime = MBB_CheckTime + elapsed;
 	end
 	
 	if( MBB_DragFlag == 1 and MBB_Options.AttachToMinimap == 1 ) then
