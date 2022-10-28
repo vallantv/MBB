@@ -1,6 +1,6 @@
-## Interface: 90005
+## Interface: 100002
 ## Author: karlsnyder, vallantv
-## Version: 4.0.7
+## Version: 10.0.2
 ## Title: MinimapButtonBag
 ## X-Category: Map
 ## Notes: Cleans up minimap buttons and makes them accessible through a pop out menu!

@@ -1,0 +1,10 @@
+lightweight tag f44f9f25391416d8706fe557e45c1d664890eeaa v4.0.7
+Author:	VallanTV <thevallantv@protonmail.com>
+Date:	Wed Apr 7 11:29:51 2021 -0700
+
+commit f44f9f25391416d8706fe557e45c1d664890eeaa
+Author: VallanTV <thevallantv@protonmail.com>
+Date:   Wed Apr 7 11:29:51 2021 -0700
+
+    Implement performance fix from https://github.com/vallantv/MBBClassic/pull/14/commits/cd89cee362008a12eb559aad6686b98d3af80ca2
+

@@ -166,7 +166,7 @@
 				</Texture>
 				<FontString name="$parent_HeaderText" inherits="GameFontNormal" text="MBB_OPTIONS_HEADER">
 					<Anchors>
-						<Anchor point="TOP" relativeTo="$parent_Header">
+						<Anchor point="TOP" relativeKey="$parent_Header">
 							<Offset>
 								<AbsDimension x="0" y="-14"/>
 							</Offset>
@@ -180,7 +180,7 @@
 						<AbsDimension x="130" y="15" />
 					</Size>
 					<Anchors>
-						<Anchor point="TOPLEFT" relativeTo="$parent">
+						<Anchor point="TOPLEFT" relativeKey="$parent">
 							<Offset>
 								<AbsDimension x="20" y="-85" />
 							</Offset>
@@ -194,7 +194,7 @@
 						<AbsDimension x="130" y="15" />
 					</Size>
 					<Anchors>
-						<Anchor point="TOPLEFT" relativeTo="$parent">
+						<Anchor point="TOPLEFT" relativeKey="$parent">
 							<Offset>
 								<AbsDimension x="20" y="-155" />
 							</Offset>
@@ -208,7 +208,7 @@
 						<AbsDimension x="130" y="15" />
 					</Size>
 					<Anchors>
-						<Anchor point="TOPLEFT" relativeTo="$parent">
+						<Anchor point="TOPLEFT" relativeKey="$parent">
 							<Offset>
 								<AbsDimension x="20" y="-175" />
 							</Offset>
@@ -220,7 +220,7 @@
 		<Frames>
 			<Slider name="$parent_TimeoutSlider" inherits="OptionsSliderTemplate">
 				<Anchors>
-					<Anchor point="TOPLEFT" relativeTo="$parent" relativeFrom="TOPLEFT">
+					<Anchor point="TOPLEFT" relativeKey="$parent" relativePoint="TOPLEFT">
 						<Offset>
 							<AbsDimension x="150" y="-45" />
 						</Offset>
@@ -268,7 +268,7 @@
 			</Slider>	
 			<CheckButton name="$parent_LeftRadio" inherits="UIRadioButtonTemplate">
 				<Anchors>
-					<Anchor point="LEFT" relativeTo="$parent_ExpansionLabel" relativePoint="RIGHT">
+					<Anchor point="LEFT" relativeKey="$parent_ExpansionLabel" relativePoint="RIGHT">
 						<Offset>
 							<AbsDimension x="0" y="0" />
 						</Offset>
@@ -304,7 +304,7 @@
 			</CheckButton>
 			<CheckButton name="$parent_TopRadio" inherits="UIRadioButtonTemplate">
 				<Anchors>
-					<Anchor point="TOP" relativeTo="$parent_LeftRadio" relativePoint="BOTTOM">
+					<Anchor point="TOP" relativeKey="$parent_LeftRadio" relativePoint="BOTTOM">
 						<Offset>
 							<AbsDimension x="0" y="0" />
 						</Offset>
@@ -340,7 +340,7 @@
 			</CheckButton>
 			<CheckButton name="$parent_RightRadio" inherits="UIRadioButtonTemplate">
 				<Anchors>
-					<Anchor point="TOP" relativeTo="$parent_TopRadio" relativePoint="BOTTOM">
+					<Anchor point="TOP" relativeKey="$parent_TopRadio" relativePoint="BOTTOM">
 						<Offset>
 							<AbsDimension x="0" y="0" />
 						</Offset>
@@ -376,7 +376,7 @@
 			</CheckButton>
 			<CheckButton name="$parent_BottomRadio" inherits="UIRadioButtonTemplate">
 				<Anchors>
-					<Anchor point="TOP" relativeTo="$parent_RightRadio" relativePoint="BOTTOM">
+					<Anchor point="TOP" relativeKey="$parent_RightRadio" relativePoint="BOTTOM">
 						<Offset>
 							<AbsDimension x="0" y="0" />
 						</Offset>
@@ -435,7 +435,7 @@
 					<AbsDimension x="30" y="20" />
 				</Size>
 				<Anchors>
-					<Anchor point="LEFT" relativeTo="$parent_MaxButtonsLabel" relativePoint="RIGHT">
+					<Anchor point="LEFT" relativeKey="$parent_MaxButtonsLabel" relativePoint="RIGHT">
 						<Offset>
 							<AbsDimension x="0" y="0" />
 						</Offset>
@@ -478,7 +478,7 @@
 			</EditBox>
 			<CheckButton name="$parent_LeftAltRadio" inherits="UIRadioButtonTemplate">
 				<Anchors>
-					<Anchor point="LEFT" relativeTo="$parent_AltExpansionLabel" relativePoint="RIGHT">
+					<Anchor point="LEFT" relativeKey="$parent_AltExpansionLabel" relativePoint="RIGHT">
 						<Offset>
 							<AbsDimension x="0" y="0" />
 						</Offset>
@@ -513,7 +513,7 @@
 			</CheckButton>
 			<CheckButton name="$parent_TopAltRadio" inherits="UIRadioButtonTemplate">
 				<Anchors>
-					<Anchor point="TOP" relativeTo="$parent_LeftAltRadio" relativePoint="BOTTOM">
+					<Anchor point="TOP" relativeKey="$parent_LeftAltRadio" relativePoint="BOTTOM">
 						<Offset>
 							<AbsDimension x="0" y="0" />
 						</Offset>
@@ -548,7 +548,7 @@
 			</CheckButton>
 			<CheckButton name="$parent_RightAltRadio" inherits="UIRadioButtonTemplate">
 				<Anchors>
-					<Anchor point="TOP" relativeTo="$parent_TopAltRadio" relativePoint="BOTTOM">
+					<Anchor point="TOP" relativeKey="$parent_TopAltRadio" relativePoint="BOTTOM">
 						<Offset>
 							<AbsDimension x="0" y="0" />
 						</Offset>
@@ -583,7 +583,7 @@
 			</CheckButton>
 			<CheckButton name="$parent_BottomAltRadio" inherits="UIRadioButtonTemplate">
 				<Anchors>
-					<Anchor point="TOP" relativeTo="$parent_RightAltRadio" relativePoint="BOTTOM">
+					<Anchor point="TOP" relativeKey="$parent_RightAltRadio" relativePoint="BOTTOM">
 						<Offset>
 							<AbsDimension x="0" y="0" />
 						</Offset>
@@ -621,7 +621,7 @@
 					<AbsDimension x="125" y="21" />
 				</Size>
 				<Anchors>
-					<Anchor point="TOP" relativeTo="$parent" relativeFrom="TOPLEFT">
+					<Anchor point="TOP" relativeKey="$parent" relativePoint="TOPLEFT">
 						<Offset>
 							<AbsDimension x="-75" y="-245" />
 						</Offset>
@@ -661,7 +661,7 @@
 					<AbsDimension x="125" y="21" />
 				</Size>
 				<Anchors>
-					<Anchor point="TOP" relativeTo="$parent" relativeFrom="TOPLEFT">
+					<Anchor point="TOP" relativeKey="$parent" relativePoint="TOPLEFT">
 						<Offset>
 							<AbsDimension x="75" y="-245" />
 						</Offset>
