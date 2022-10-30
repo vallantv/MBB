@@ -8,7 +8,7 @@
 	
 ]]
 
-MBB_Version = "4.0.7";
+MBB_Version = "4.1.0";
 
 -- Setup some variable for debugging.
 MBB_DebugFlag = 0;
@@ -761,7 +761,7 @@ function MBB_OnUpdate(elapsed)
 
 		local angle = math.deg(math.atan2(ypos,xpos));
 		
-		MBB_MinimapButtonFrame:SetPoint("TOPLEFT", Minimap, "TOPLEFT", 53-(cos(angle)*81), -55+(sin(angle)*81));
+		MBB_MinimapButtonFrame:SetPoint("TOPLEFT", Minimap, "TOPLEFT", 83-(cos(angle)*101), -85+(sin(angle)*101));
 	end
 	
 	if( MBB_Options.CollapseTimeout and MBB_Options.CollapseTimeout ~= 0 ) then
