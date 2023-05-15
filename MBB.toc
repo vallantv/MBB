@@ -1,8 +1,9 @@
-## Interface: 100000
+## Interface: 100100
 ## Author: karlsnyder, vallantv
-## Version: 4.1.0
+## Version: 4.1.1
 ## Title: MinimapButtonBag
 ## X-Category: Map
+## X-Curse-Project-ID: 14354
 ## Notes: Cleans up minimap buttons and makes them accessible through a pop out menu!
 ## Notes-frFR: Liberez votre minimap de ses boutons et rendez les accessibles avec un menu deroulant!
 ## Notes-deDE: Reduziert die Minimap Knöpfe und erlaubt den Zugriff auf diese über ein Menü!

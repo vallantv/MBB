@@ -1,6 +1,10 @@
 Changes
+v4.1.1:
+ - Bump Game Version
+
 v4.1.0:
  - Dragonflight fix
+
 v4.0.7:
  - Use performance fix from classic version
 
