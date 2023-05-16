@@ -1,3 +1,7 @@
+The Addon HidingBar supercedes MBB on all aspects and is conitnually updated.
+https://www.curseforge.com/wow/addons/hidingbar
+
+
 MBB reduces minimap buttons and makes them accessible through a pop out menu. Click the MBB button to expand the menu and display the buttons. Each button that is collapsed into the menu can be reattached to the minimap with Ctrl + Right Click. The MBB button can also be detached from minimap with Ctrl + Right Click.
 
 Hot Key Ctrl + Right Click - detach / reattach a minimap button
