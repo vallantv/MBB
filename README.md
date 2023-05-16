@@ -1,4 +1,4 @@
-The Addon HidingBar supercedes MBB on all aspects and is conitnually updated.
+The Addon HidingBar supersedes MBB on all aspects and is continually updated. 
 https://www.curseforge.com/wow/addons/hidingbar
 
 
